@@ -23,7 +23,7 @@ h6 {
 }
 
 .container-fluid-custom {
-  max-width: 1600px;
+  max-width: 1200px;
 }
 
 .btn {
@@ -68,13 +68,13 @@ h6 {
   --bs-gradient: none;
 }
 
-@media (min-width: 1200px) {
-  /* .home {
+/* @media (min-width: 1200px) {
+  .home {
     background: url("../img/human-1.svg") left bottom no-repeat,
       url("../img/human-2.svg") right bottom no-repeat,
       url("../img/noise-bg.png") left top repeat, var(--background-color);
-  } */
-}
+  }
+} */
 
 .home-title::before {
   content: url("../img/stars.svg");
