@@ -13,7 +13,7 @@ const port = 3000 || process.env.PORT;
 
 app.use(
   session({
-    secret: "lsajokfmokmvad",
+    secret: "lsajokfmokmvadd",
     resave: false,
     saveUninitialized: true,
     store: MongoStore.create({
